@@ -42,5 +42,14 @@ summary.Retweets = total_retweets.Tweet
 summary.RTPerc =summary.Retweets/summary.Tweets
 summary.fillna(0)
 
-summary.Tweets.plot()
+# summary.Tweets.plot()
+# summary.Retweets.plot()
+summary.plot(subplots=True)
 plt.show()
+
+# # TODO:
+#     1. WordCloud of tweets
+#     2. Tweets with pictures
+#     3. Most liked and favorited
+#     4. Increase in engagement
+#     5. Rise in followers
